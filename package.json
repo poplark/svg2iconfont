@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Generate iconfonts with svg files",
   "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:poplark/svg2iconfont.git"
+  },
   "scripts": {
     "build": "gulp Iconfont"
   },
