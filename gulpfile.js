@@ -4,8 +4,8 @@ const iconfont = require('gulp-iconfont');
 const rename = require('gulp-rename');
 const consolidate = require('gulp-consolidate');
 
-let fontName = 'gicon',
-    className = 'gicon';
+let fontName = 'goku-icon',
+    className = 'goku-icon';
 
 gulp.task('Iconfont', function(done) {
     const iconStream = gulp.src(['assets/icons/*.svg'])
